@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+.frontheader {
+  grid-row: 1;
+  padding-left: 30px;
+  padding-top: 8px;
+  padding-bottom: 2px;
+  background-color: #3b74ee;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22pt;
+  font-weight: bold;
+}
+
+.headertext {
+  color: #f3e8ee;
+}
+
+.main-content {
+  background-color: #f3e8ee;
+}
